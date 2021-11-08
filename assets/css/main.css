@@ -410,8 +410,7 @@
     width: 150px;
     color: var(--white-color);
     font-size: 30px;
-    text-align: center;
-    
+    text-align: center;   
 }
 
 .header__cart-wrap{
@@ -431,6 +430,7 @@
 
 .header__cart-list{
     position: absolute;
+    cursor: default;
     width: 410px;
     top: calc(100% + 6px);
     right: -48%;
@@ -449,11 +449,32 @@
     border-width: 25px 20px;
     top: -14%;
     right: 3%;
+    cursor: pointer;
+}
+/* phần số lượng hàng trên icon "tròn 3" */
+.header__cart-notice{
+    position:absolute;
+    top: -10px;
+    right: -12px;
+    background-color:var(--white-color);
+    color:var(--primary-color);
+    font-size: 1.8rem;
+    border-radius: 16px;
+    padding: 2px 6px;
+    border: solid tomato;
+}
 
+/* phần gộp hiện no cart */
+.header__cart-list--no-cart .header__cart-no-cart-img,
+.header__cart-list--no-cart .header__cart-no-cart-msg{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .header__cart-no-cart-img{
     width: 60%;
+    display: none;
 }
 
 .header__cart-list--no-cart{
@@ -466,6 +487,7 @@
     display: block;
     font-weight: 900;
     margin-top: 5px;
+    display: none;
 }
 
 /* hết phần css cho header cart */
