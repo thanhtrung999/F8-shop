@@ -43,7 +43,7 @@
                     <ul class="header__navbar-list">
                         <li class="header__navbar-item header__navbar-item-has-notify">
                             <a href="" class="header__navbar-item-link">
-                                <i class="header__navbar-icon fas fa-bell"></i>
+                                <i class="header__navbar-icon far fa-bell"></i>
                                 Thông báo
                             </a>
                             <!-- html phần nptify của thông báo -->
@@ -107,7 +107,7 @@
                                 <li class="header__navbar-user-item">
                                     <a href="" class="">Đơn mua</a>
                                 </li>
-                                <li class="header__navbar-user-item">
+                                <li class="header__navbar-user-item header__navbar-user-item--separate">
                                     <a href="" class="">Đăng xuất</a>
                                 </li>
                             </ul>
@@ -116,9 +116,11 @@
                 </div>
                 <!-- header search navbar -->
                 <div class="header-with-search">
-                    <div class="header__logo">
-                        <img src="./assets/image/logo-full-white.png" alt="" class="header__logo-img">
-                    </div>
+                    <a href="/" class="header__logo-link">
+                        <div class="header__logo">
+                            <img src="./assets/image/logo-full-white.png" alt="" class="header__logo-img">
+                        </div>
+                    </a>
                     <div class="header__search">
                         <div class="header__search-input-wrap">
                             <input type="text" class="header__search-input" placeholder="Siêu sale công nghệ">
@@ -226,7 +228,24 @@
             </div>
         </header>
         <div class="container">
+            <nav class="category">
+                <h3 class="category-heading">
+                    <i class="fa fa-list"></i>    
+                    Danh mục
+                </h3>
 
+                <ul class="category-list">
+                    <li class="category-item category-item--active">
+                        <a href="" class="category-item__link">Trang điểm mặt</a>
+                    </li>
+                    <li class="category-item">
+                        <a href="" class="category-item__link">Trang điểm môi</a>
+                    </li>
+                    <li class="category-item">
+                        <a href="" class="category-item__link">Trang điểm mắt</a>
+                    </li>
+                </ul>
+            </nav>
         </div>
         <footer class="footer">
 

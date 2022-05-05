@@ -29,6 +29,7 @@
 .header__navbar-user:hover .header__navbar-user-menu{
     display: block;
     animation: fadeIn linear 0.3s;
+
 }
 
 .header__navbar-user-img{
@@ -82,6 +83,10 @@
 .header__navbar-user-item{
     
 }
+.header__navbar-user-item--separate{
+    border-top: 0.2px solid rgba(102,102,102,0.1);
+}
+
 
 .header__navbar-user-item a {
     text-decoration: none;
