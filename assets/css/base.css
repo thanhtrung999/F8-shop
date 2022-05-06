@@ -19,7 +19,7 @@ html{
     font-family: 'Roboto', sans-serif;
     box-sizing: border-box;
 }
-
+/* reponsive */
 .grid{
     width: 1200px;
     max-width: 100%;
@@ -33,7 +33,23 @@ html{
 .grid__row{
     display: flex;
     flex-wrap: wrap;
+    padding-left: -12px;
+    padding-right: -12px;
 }
+
+/* test */
+.grid__column-2{
+    padding-left: 12px;
+    padding-right: 12px;
+    width: 16.6667%;
+}
+
+.grid__column-10{
+    padding-left: 12px;
+    padding-right: 12px;
+    width: 83.3334%;
+}
+
 /* animation cho qrcode */
 @keyframes fadeIn {
     from{
@@ -85,14 +101,16 @@ html{
 .btn{
     min-width: 124px;
     line-height: 26px;
+    background-color: var(--white-color);
     text-decoration: none;
     border: none;
+    border-radius: 2px;
     height: 34px;
     font-size: 1.5rem;
     padding: 0 8px;
-    outline: 0;
+    outline: none;
     cursor: pointer;
-    display: flex;
+    display: inline-flex;
     align-items: center;
     justify-content: center;
 }
