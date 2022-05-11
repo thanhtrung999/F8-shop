@@ -920,6 +920,7 @@
 .home-product-item{
     background-color: var(--white-color);
     margin-top: 10px;
+    position: relative;
 }
 .home-product-item__img{
     padding-top: 100%;
@@ -988,4 +989,45 @@ i.home-product-item__like-icon-fill{
 .home-product-item__rating{
     font-size: 0.6rem;
     color: #666;
+    margin-left: auto;
 }
+
+.home-product-item__star--gold{
+    color: var(--star-gold-color);
+}
+
+.home-product-item__sold{
+    font-size: 1.2rem;
+    color: var(--text-color);
+    margin-left: 6px;
+
+}
+
+.home-product-item__origin{
+    display: flex;
+    justify-content: space-between;
+    margin: 3px 10px 0px ;
+    color: #595959;
+    font-weight: 300;
+}
+/*  css phần yêu thích , giảm giá */
+.home-product-item__favourite{
+    position: absolute;
+    top: 4px;
+    left: -3px;
+    color: var(--white-color);
+    font-size: 1.2rem;
+    font-weight: 500;
+    background-color:var(--primary-color);
+}
+.home-product-item__favourite i{
+    font-size: 0.9rem;
+    margin: 0 3px 0 4px;
+}
+.home-product-item__sale-off{
+    
+}
+.home-product-item__sale-off-percet{
+
+}
+.home-product-item__sale-off-label{}

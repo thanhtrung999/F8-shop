@@ -3,6 +3,8 @@
     --black-color: #000;
     --text-color: #333;
     --primary-color: #EE4D2D;
+    --boder-color: #dbdbdb;
+    --star-gold-color: rgb(248, 246, 94);
     --header-height: 120px;
     --navbar-height: 20px;
     --header-with-search-height: calc(var(--header-height) - var(--navbar-height));
