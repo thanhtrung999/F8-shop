@@ -194,3 +194,34 @@ html{
     color: var(--primary-color);
 }
 
+/* css phần pagination */
+.pagination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+}
+
+.pagination-item{
+    margin: 0 12px;
+}
+.pagination-item--active .pagination-item__link{
+    background-color: var(--primary-color);
+    color: var(--white-color);
+}
+.pagination-item--active .pagination-item__link:hover{
+    background: #f37e67;
+}
+
+.pagination-item__link{
+    --height:30px;
+    text-decoration: none;
+    font-size: 2rem;
+    color: #666;
+    min-width: 40px;
+    height: var(--height);
+    line-height: var(--height);
+    display: block;
+    text-align: center;
+    border-radius: 2px;
+}
