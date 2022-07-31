@@ -342,7 +342,7 @@
                                 <div class="grid__column-2-4">
                                     <a class="home-product-item" href="#">
                                         <div class="home-product-item__img" style="background-image:url(https://cabaymau.vn/wp-content/uploads/2018/09/ca-bay-mau-full-red.jpg);"></div>
-                                        <h4 class="home-product-item__name">Dòng cá bảy màu nhập thái Guppy Full Red BĐS rb tail size 3 -4 tuổi</h4>
+                                        <h4 class="home-product-item__name"><del>Dòng cá </del> bảy màu nhập thái Guppy Full Red BĐS rb tail size 3 -4 tuổi</h4>
                                         <div class="home-product-item__price">
                                             <span class="home-product-item__price-old">150.000đ</span>
                                             <span class="home-product-item__price-new">120.000đ</span>
@@ -822,8 +822,27 @@
             </div>
         </footer>
     </div>
-    
-
+    <!-- phần mouse -->
+    <div class="pointer"></div>
+    <div class="pointer1"></div>
+    <div class="pointer2"></div>
+    <div class="pointer3"></div>
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script type="text/javascript">
+        $(document).mousemove(function(e){
+            $('.pointer').css({left:e.pageX, top:e.pageY})
+        })
+    </script>
+    <script type="text/javascript">
+        $(document).mousemove(function(e){
+            $('.pointer1').css({left:e.pageX, top:e.pageY})
+        })
+    </script>
+    <script type="text/javascript">
+        $(document).mousemove(function(e){
+            $('.pointer2').css({left:e.pageX, top:e.pageY})
+        })
+    </script>
     <!----------------- html phần modal -------->
      <!-- <div class="modal">
         <div class="modal__overlay"></div>
@@ -921,5 +940,6 @@
         </div>
     </div> -->
     <!-------- end html phần modal ------------>  
+
 </body>
 </html>
